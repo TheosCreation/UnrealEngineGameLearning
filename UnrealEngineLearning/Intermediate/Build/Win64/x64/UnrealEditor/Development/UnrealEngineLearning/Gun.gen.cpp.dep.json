@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\theo\\unrealenginegamelearning\\unrealenginelearning\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealenginelearning\\uht\\gun.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\theo\\unrealenginegamelearning\\unrealenginelearning\\intermediate\\build\\win64\\x64\\unrealenginelearningeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\theo\\unrealenginegamelearning\\unrealenginelearning\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealenginelearning\\definitions.unrealenginelearning.h",
+            "c:\\users\\theo\\unrealenginegamelearning\\unrealenginelearning\\source\\unrealenginelearning\\guns\\gun.h",
+            "c:\\users\\theo\\unrealenginegamelearning\\unrealenginelearning\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealenginelearning\\uht\\gun.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

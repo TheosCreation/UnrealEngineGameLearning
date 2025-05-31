@@ -1,4 +1,5 @@
 /I "."
+/I "C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEngineLearning\UHT"
 /I "C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Source"
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"

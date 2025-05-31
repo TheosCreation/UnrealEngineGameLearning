@@ -11,6 +11,7 @@
     <None Include="..\..\Source\UnrealEngineLearningEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -26,6 +27,18 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Source\UnrealEngineLearningEditor">
+      <UniqueIdentifier>{098355C3-ED7B-3A79-AC05-33F4987DC253}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealEngineLearningEditor\UnrealEngineLearningEditor.Build.cs">
+      <Filter>Source\UnrealEngineLearningEditor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealEngineLearningEditor\UnrealEngineLearningEditor.cpp">
+      <Filter>Source\UnrealEngineLearningEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineLearningEditor\UnrealEngineLearningEditor.h">
+      <Filter>Source\UnrealEngineLearningEditor</Filter>
+    </ClCompile>
     <Filter Include="Source\UnrealEngineLearning">
       <UniqueIdentifier>{003EE9D3-92C5-3066-B858-7A88F803628C}</UniqueIdentifier>
     </Filter>
@@ -37,6 +50,24 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineLearning\UnrealEngineLearning.h">
       <Filter>Source\UnrealEngineLearning</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealEngineLearning\Guns">
+      <UniqueIdentifier>{740A7796-DE61-3E36-AD0B-BE0FCDB6D1B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealEngineLearning\Guns\Gun.cpp">
+      <Filter>Source\UnrealEngineLearning\Guns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineLearning\Guns\Gun.h">
+      <Filter>Source\UnrealEngineLearning\Guns</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealEngineLearning\Player">
+      <UniqueIdentifier>{104A888D-F06C-30E0-AF12-BF86706348C9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealEngineLearning\Player\PlayerCharater.cpp">
+      <Filter>Source\UnrealEngineLearning\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineLearning\Player\PlayerCharater.h">
+      <Filter>Source\UnrealEngineLearning\Player</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

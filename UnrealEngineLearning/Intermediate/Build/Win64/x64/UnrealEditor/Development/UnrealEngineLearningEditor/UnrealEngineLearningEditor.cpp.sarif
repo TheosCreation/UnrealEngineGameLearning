@@ -1,0 +1,89 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C2664",
+                    "level": "error",
+                    "message": {
+                        "text": "'FDelegateHandle TMulticastDelegateRegistration<void (bool),UserPolicy>::AddStatic<>(void (__cdecl *)(bool))': cannot convert argument 1 from 'void (__cdecl *)(void)' to 'void (__cdecl *)(bool)'\n        with\n        [\n            UserPolicy=FDefaultDelegateUserPolicy\n        ]"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/Users/Theo/UnrealEngineGameLearning/UnrealEngineLearning/Source/UnrealEngineLearningEditor/UnrealEngineLearningEditor.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/Theo/UnrealEngineGameLearning/UnrealEngineLearning/Source/UnrealEngineLearningEditor/UnrealEngineLearningEditor.cpp"
+                                },
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 31
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/Theo/UnrealEngineGameLearning/UnrealEngineLearning/Source/UnrealEngineLearningEditor/UnrealEngineLearningEditor.cpp"
+                                },
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 42
+                                }
+                            },
+                            "message": {
+                                "text": "This conversion requires a reinterpret_cast, a C-style cast or parenthesized function-style cast"
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl"
+                                },
+                                "region": {
+                                    "startLine": 793,
+                                    "startColumn": 25
+                                }
+                            },
+                            "message": {
+                                "text": "see declaration of 'TMulticastDelegateRegistration<void (bool),UserPolicy>::AddStatic'\n        with\n        [\n            UserPolicy=FDefaultDelegateUserPolicy\n        ]"
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Users/Theo/UnrealEngineGameLearning/UnrealEngineLearning/Source/UnrealEngineLearningEditor/UnrealEngineLearningEditor.cpp"
+                                },
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 31
+                                }
+                            },
+                            "message": {
+                                "text": "while trying to match the argument list '(void (__cdecl *)(void))'"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

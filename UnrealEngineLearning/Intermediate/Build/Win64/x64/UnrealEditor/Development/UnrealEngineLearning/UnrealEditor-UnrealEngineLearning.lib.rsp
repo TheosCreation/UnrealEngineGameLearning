@@ -7,7 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEngineLearningEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\Gun.gen.cpp.obj"
+"C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\PlayerCharater.gen.cpp.obj"
+"C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\UnrealEngineLearning.init.gen.cpp.obj"
 "C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\UnrealEngineLearning.cpp.obj"
 "C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\PerModuleInline.gen.cpp.obj"
+"C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\Gun.cpp.obj"
+"C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\PlayerCharater.cpp.obj"
 "C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\Default.rc2.res"
 /OUT:"C:\Users\Theo\UnrealEngineGameLearning\UnrealEngineLearning\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineLearning\UnrealEditor-UnrealEngineLearning.lib"

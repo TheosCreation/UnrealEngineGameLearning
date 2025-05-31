@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnrealEngineLearningModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3861012348bb9945418c1c258f1b4211bdbbec2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d97ac9bb030bcffaa2fe73eafd4629dfd1233f5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnrealEngineLearningModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnrealEngineLearningModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
