@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealEngineLearning",
+			"Path": "..\\Source\\UnrealEngineLearning.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealEngineLearningEditor",
+			"Path": "..\\Source\\UnrealEngineLearningEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

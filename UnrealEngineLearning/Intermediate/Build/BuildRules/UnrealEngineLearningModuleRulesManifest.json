@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Theo\\UnrealEngineGameLearning\\UnrealEngineLearning\\Source\\UnrealEngineLearning\\UnrealEngineLearning.Build.cs",
+		"C:\\Users\\Theo\\UnrealEngineGameLearning\\UnrealEngineLearning\\Source\\UnrealEngineLearning.Target.cs",
+		"C:\\Users\\Theo\\UnrealEngineGameLearning\\UnrealEngineLearning\\Source\\UnrealEngineLearningEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
