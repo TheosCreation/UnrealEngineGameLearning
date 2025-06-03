@@ -3,6 +3,7 @@
 
 #include "UnrealEngineLearning/Guns/Gun.h"
 
+#include "Projectile.h"
 #include "ToolMenusLog.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -61,6 +62,28 @@ void AGun::Fire()
 	if (FireSound)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
+
+	if (ProjectileClass && GunMesh)
+	{
+		FVector MuzzleLocation = GunMesh->GetSocketLocation("Muzzle");
+		FRotator MuzzleRotation = GunMesh->GetSocketRotation("Muzzle");
+
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		SpawnParams.Instigator = GetInstigator();
+
+		AProjectile* Projectile = GetWorld()->SpawnActor<AProjectile>(
+			ProjectileClass,
+			MuzzleLocation,
+			MuzzleRotation,
+			SpawnParams
+		);
+
+		//if (Projectile)
+		//{
+		//
+		//}
 	}
 }
 

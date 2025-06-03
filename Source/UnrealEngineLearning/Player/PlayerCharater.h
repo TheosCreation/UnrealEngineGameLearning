@@ -2,10 +2,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "UnrealEngineLearning/Interfaces/Damageable.h"
 #include "PlayerCharater.generated.h"
 
 UCLASS()
-class UNREALENGINELEARNING_API APlayerCharater : public ACharacter
+class UNREALENGINELEARNING_API APlayerCharater : public ACharacter, public IDamageable
 {
 	GENERATED_BODY()
 
@@ -35,6 +36,11 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	// IDamageable interface implementation
+	virtual void ApplyDamage(float DamageAmount) override;
+	virtual float GetHealth() const override;
+	virtual void SetHealth(float NewHealth) override;
+
 	bool IsMoving = false;
 	FVector2D InputVector;
 
@@ -56,6 +62,9 @@ protected:
 	USceneComponent* WeaponSocket;
 
 private:
+	UPROPERTY(EditAnywhere)
+	float Health = 100.0f;
+
 	AGun* CurrentWeapon = nullptr;
 	int32 CurrentWeaponIndex = 0;
 	float CurrentRoll = 0;

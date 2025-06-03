@@ -107,6 +107,26 @@ void APlayerCharater::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 }
 
+void APlayerCharater::ApplyDamage(float DamageAmount)
+{
+	Health -= DamageAmount;
+	if (Health <= 0.0f)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Player is dead"));
+		//Destroy();
+	}
+}
+
+float APlayerCharater::GetHealth() const
+{
+	return Health;
+}
+
+void APlayerCharater::SetHealth(float NewHealth)
+{
+	Health = NewHealth;
+}
+
 void APlayerCharater::MoveForward(float Input)
 {
 	FVector ForwardDirection = GetActorForwardVector();

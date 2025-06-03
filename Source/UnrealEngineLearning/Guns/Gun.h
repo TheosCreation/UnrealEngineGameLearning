@@ -48,4 +48,7 @@ private:
 	bool IsFiring = false;
 
 	float LastFireTime = -1000.f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Projectile")
+	TSubclassOf<class AProjectile> ProjectileClass;
 };
